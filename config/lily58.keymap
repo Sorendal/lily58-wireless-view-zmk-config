@@ -39,7 +39,7 @@
 
         Shift_Right_R {
             bindings = <&kp LS(RS(RIGHT))>;
-            key-positions = <55 33 36>;
+            key-positions = <55 33 49>;
         };
 
         My_Shift_Left {
@@ -59,7 +59,7 @@
 
         Left_Shift_R {
             bindings = <&kp LS(DOWN_ARROW)>;
-            key-positions = <46 55 49>;
+            key-positions = <55 49 31>;
         };
 
         My_Shift_Home {
@@ -74,12 +74,12 @@
 
         My_Shift_End {
             bindings = <&kp LS(END)>;
-            key-positions = <19 55 36>;
+            key-positions = <55 36 45>;
         };
 
         Shift_End_R {
             bindings = <&kp RS(END)>;
-            key-positions = <19 55 49>;
+            key-positions = <55 49 45>;
         };
     };
 
