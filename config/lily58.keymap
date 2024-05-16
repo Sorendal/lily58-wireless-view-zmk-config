@@ -42,16 +42,6 @@
             key-positions = <55 33 49>;
         };
 
-        My_Shift_Left {
-            bindings = <&kp LS(LEFT)>;
-            key-positions = <55 36 31>;
-        };
-
-        Shift_Left_R {
-            bindings = <&kp RS(LEFT)>;
-            key-positions = <55 31 49>;
-        };
-
         My_Shift_Down {
             bindings = <&kp LS(DOWN_ARROW)>;
             key-positions = <46 36 55>;
