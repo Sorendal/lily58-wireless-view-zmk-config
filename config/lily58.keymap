@@ -71,6 +71,26 @@
             bindings = <&kp RS(END)>;
             key-positions = <55 49 45>;
         };
+
+        Control_Left_L {
+            bindings = <&kp LC(LEFT_ARROW)>;
+            key-positions = <31 44 24>;
+        };
+
+        Control_Left_R {
+            bindings = <&kp LC(LEFT_ARROW)>;
+            key-positions = <31 44 35>;
+        };
+
+        Control_Right_L {
+            bindings = <&kp LC(RIGHT)>;
+            key-positions = <31 44 24>;
+        };
+
+        Control_Right_R {
+            bindings = <&kp RC(RIGHT)>;
+            key-positions = <31 44 35>;
+        };
     };
 
     keymap {
