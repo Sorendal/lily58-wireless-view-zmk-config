@@ -12,7 +12,7 @@
     combos {
         compatible = "zmk,combos";
 
-        Shift_Left {
+        My_Shift_Left {
             bindings = <&kp LS(LEFT_ARROW)>;
             key-positions = <55 31 36>;
         };
@@ -22,7 +22,7 @@
             key-positions = <55 31 49>;
         };
 
-        Shift_Up {
+        My_Shift_Up {
             bindings = <&kp LS(UP_ARROW)>;
             key-positions = <55 36 20>;
         };
@@ -32,7 +32,7 @@
             key-positions = <55 20 49>;
         };
 
-        Shift_Right {
+        My_Shift_Right {
             bindings = <&kp LS(RIGHT)>;
             key-positions = <55 33 36>;
         };
@@ -42,7 +42,7 @@
             key-positions = <55 33 36>;
         };
 
-        Shift_Left {
+        My_Shift_Left {
             bindings = <&kp LS(LEFT)>;
             key-positions = <55 36 31>;
         };
@@ -52,7 +52,7 @@
             key-positions = <55 31 49>;
         };
 
-        Shift_Down {
+        My_Shift_Down {
             bindings = <&kp LS(DOWN_ARROW)>;
             key-positions = <46 36 55>;
         };
@@ -62,7 +62,7 @@
             key-positions = <46 55 49>;
         };
 
-        Shift_Home {
+        My_Shift_Home {
             bindings = <&kp LS(HOME)>;
             key-positions = <19 36 55>;
         };
@@ -72,7 +72,7 @@
             key-positions = <19 55 49>;
         };
 
-        Shift_End {
+        My_Shift_End {
             bindings = <&kp LS(END)>;
             key-positions = <19 55 36>;
         };
