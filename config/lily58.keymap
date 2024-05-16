@@ -9,6 +9,80 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Shift_Left {
+            bindings = <&kp LS(LEFT_ARROW)>;
+            key-positions = <55 31 36>;
+        };
+
+        Shift_Left_R {
+            bindings = <&kp RS(LEFT_ARROW)>;
+            key-positions = <55 31 49>;
+        };
+
+        Shift_Up {
+            bindings = <&kp LS(UP_ARROW)>;
+            key-positions = <55 36 20>;
+        };
+
+        Shift_Up_R {
+            bindings = <&kp RS(UP_ARROW)>;
+            key-positions = <55 20 49>;
+        };
+
+        Shift_Right {
+            bindings = <&kp LS(RIGHT)>;
+            key-positions = <55 33 36>;
+        };
+
+        Shift_Right_R {
+            bindings = <&kp LS(RS(RIGHT))>;
+            key-positions = <55 33 36>;
+        };
+
+        Shift_Left {
+            bindings = <&kp LS(LEFT)>;
+            key-positions = <55 36 31>;
+        };
+
+        Shift_Left_R {
+            bindings = <&kp RS(LEFT)>;
+            key-positions = <55 31 49>;
+        };
+
+        Shift_Down {
+            bindings = <&kp LS(DOWN_ARROW)>;
+            key-positions = <46 36 55>;
+        };
+
+        Left_Shift_R {
+            bindings = <&kp LS(DOWN_ARROW)>;
+            key-positions = <46 55 49>;
+        };
+
+        Shift_Home {
+            bindings = <&kp LS(HOME)>;
+            key-positions = <19 36 55>;
+        };
+
+        Shift_Home_R {
+            bindings = <&kp RS(HOME)>;
+            key-positions = <19 55 49>;
+        };
+
+        Shift_End {
+            bindings = <&kp LS(END)>;
+            key-positions = <19 55 36>;
+        };
+
+        Shift_End_R {
+            bindings = <&kp RS(END)>;
+            key-positions = <19 55 49>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -42,10 +116,10 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0          &bt BT_SEL 1           &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4                    &kp K_MUTE       &kp C_VOL_DN     &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &trans           &trans
-&trans      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCL       &kp AT        &kp HASH                        &kp KP_EQUAL     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp KP_MULTIPLY  &kp DEL
-&trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &kp PERCENT   &kp CARET                       &kp KP_DIVIDE    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_SUBTRACT  &trans
-&trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp GRAVE     &kp TILDE     &trans    &trans  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp KP_PLUS      &trans
+&bt BT_CLR  &bt BT_SEL 0          &bt BT_SEL 1           &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4                    &kp K_MUTE       &kp C_VOL_DN     &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &none            &none
+&none       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCL       &kp AT        &kp HASH                        &kp KP_EQUAL     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp KP_MULTIPLY  &kp DEL
+&none       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &kp PERCENT   &kp CARET                       &kp KP_DIVIDE    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_SUBTRACT  &none
+&trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp GRAVE     &kp TILDE     &none     &trans  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp KP_PLUS      &trans
                                                          &trans         &trans        &trans        &trans    &trans  &trans           &trans           &trans
             >;
 
@@ -62,10 +136,10 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans  &trans  &trans     &trans    &trans                           &trans             &trans    &trans        &trans         &trans    &trans
-&trans  &trans  &trans  &kp UNDER  &kp PIPE  &kp BACKSLASH                    &trans             &kp HOME  &kp UP_ARROW  &kp PAGE_UP    &trans    &kp DELETE
-&kp F1  &kp F2  &kp F3  &kp F4     &kp F5    &kp F6                           &kp DOUBLE_QUOTES  &kp LEFT  &trans        &kp RIGHT      &kp APOS  &trans
-&kp F7  &kp F8  &kp F9  &kp F10    &kp F11   &kp F12        &trans    &trans  &trans             &kp END   &kp DOWN      &kp PAGE_DOWN  &trans    &trans
+&none   &none   &none   &none      &none     &none                            &none              &none     &none         &none          &none     &none
+&none   &kp F1  &kp F2  &kp UNDER  &kp PIPE  &kp BACKSLASH                    &none              &kp HOME  &kp UP_ARROW  &kp PAGE_UP    &none     &kp DELETE
+&none   &kp F3  &kp F4  &kp F5     &kp F6    &kp F7                           &kp DOUBLE_QUOTES  &kp LEFT  &none         &kp RIGHT      &kp APOS  &none
+&trans  &kp F8  &kp F9  &kp F10    &kp F11   &kp F12        &none     &none   &none              &kp END   &kp DOWN      &kp PAGE_DOWN  &none     &trans
                         &trans     &trans    &trans         &trans    &trans  &trans             &trans    &trans
             >;
 
