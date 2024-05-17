@@ -91,6 +91,26 @@
             bindings = <&kp RC(RIGHT)>;
             key-positions = <31 44 35>;
         };
+
+        Control_Shift_Left_L {
+            bindings = <&kp LS(LC(LEFT_ARROW))>;
+            key-positions = <31 36 24 55>;
+        };
+
+        Control_Shift_Left_R {
+            bindings = <&kp RS(RC(LEFT_ARROW))>;
+            key-positions = <31 55 49 35>;
+        };
+
+        Control_Shift_Right_L {
+            bindings = <&kp LS(LC(RIGHT))>;
+            key-positions = <36 24 55 33>;
+        };
+
+        Control_Shift_Right_R {
+            bindings = <&kp RS(RC(RIGHT))>;
+            key-positions = <55 33 49 35>;
+        };
     };
 
     keymap {
