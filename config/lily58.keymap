@@ -116,6 +116,26 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <34 55 36>;
         };
+
+        Control_Shift_UL {
+            bindings = <&kp LS(LC(HOME))>;
+            key-positions = <36 24 55 19>;
+        };
+
+        Control_Shift_DL {
+            bindings = <&kp LS(LC(END))>;
+            key-positions = <36 24 55 45>;
+        };
+
+        Control_Shift_UR {
+            bindings = <&kp LS(LC(PAGE_UP))>;
+            key-positions = <36 24 55 21>;
+        };
+
+        Control_Shift_PageDown {
+            bindings = <&kp LS(LC(PAGE_DOWN))>;
+            key-positions = <55 47 36 24>;
+        };
     };
 
     keymap {
