@@ -136,6 +136,36 @@
             bindings = <&kp LS(LC(PAGE_DOWN))>;
             key-positions = <55 47 36 24>;
         };
+
+        Scr_Layout_TL {
+            bindings = <&kp LG(LA(HOME))>;
+            key-positions = <52 51 19>;
+        };
+
+        Scr_Layout_L {
+            bindings = <&kp LA(LG(LEFT_ARROW))>;
+            key-positions = <52 51 31>;
+        };
+
+        Scr_Layout_LB {
+            bindings = <&kp LA(LG(END))>;
+            key-positions = <52 51 45>;
+        };
+
+        Scr_Layout_RB {
+            bindings = <&kp LG(LA(PAGE_DOWN))>;
+            key-positions = <47 52 51>;
+        };
+
+        Scr_Layout_R {
+            bindings = <&kp LG(LA(RIGHT))>;
+            key-positions = <52 51 33>;
+        };
+
+        Scr_Layout_RU {
+            bindings = <&kp LA(LG(PAGE_UP))>;
+            key-positions = <52 51 21>;
+        };
     };
 
     keymap {
