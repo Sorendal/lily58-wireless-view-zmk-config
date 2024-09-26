@@ -64,7 +64,7 @@
 
             display-name = "Raise";
             bindings = <
-&none           &none   &none          &none         &none          &none                      &none              &none           &none          &none          &none     &none
+&none           &none   &none          &none         &none          &none                      &none              &none           &none          &none          &none     &kp KP_NUMLOCK
 &none           &kp F1  &kp BACKSLASH  &kp UNDER     &kp PIPE       &kp F2                     &none              &kp HOME        &kp UP_ARROW   &kp PAGE_UP    &none     &kp DELETE
 &kp LCTRL       &kp F3  &kp F4         &kp F5        &kp F6         &kp F7                     &kp DOUBLE_QUOTES  &kp LEFT        &none          &kp RIGHT      &kp APOS  &kp RCTRL
 &kp LEFT_SHIFT  &kp F8  &kp F9         &kp F10       &kp F11        &kp F12  &none     &none   &none              &kp END         &kp DOWN       &kp PAGE_DOWN  &none     &kp RIGHT_SHIFT
