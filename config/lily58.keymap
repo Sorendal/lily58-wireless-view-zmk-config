@@ -76,11 +76,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0          &bt BT_SEL 1           &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                    &kp K_MUTE     &kp C_VOL_DN    &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &none            &none
-&none           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCL       &kp HASH       &kp PERCENT                     &kp KP_EQUAL   &kp N7          &kp N8           &kp N9            &kp KP_MULTIPLY  &kp DEL
-&kp LCTRL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &kp AT_SIGN    &kp CARET                       &kp KP_DIVIDE  &kp NUMBER_4    &kp N5           &kp NUMBER_6      &kp KP_SUBTRACT  &kp RCTRL
-&kp LEFT_SHIFT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp GRAVE      &kp TILDE     &none     &trans  &trans         &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3      &kp KP_PLUS      &kp RIGHT_SHIFT
-                                                             &kp LEFT_ALT   &kp LEFT_META  &trans        &trans    &kp N0  &trans         &kp RIGHT_META  &kp RIGHT_ALT
+&bt BT_CLR      &bt BT_SEL 0          &bt BT_SEL 1           &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                    &kp K_MUTE    &kp C_VOL_DN    &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &none            &none
+&none           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCL       &kp HASH       &kp PERCENT                     &kp EQUAL     &kp N7          &kp N8           &kp N9            &kp KP_MULTIPLY  &kp DEL
+&kp LCTRL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR     &kp AT_SIGN    &kp CARET                       &kp KP_EQUAL  &kp NUMBER_4    &kp N5           &kp NUMBER_6      &kp KP_SUBTRACT  &kp RCTRL
+&kp LEFT_SHIFT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp GRAVE      &kp TILDE     &none     &trans  &trans        &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3      &kp KP_PLUS      &kp RIGHT_SHIFT
+                                                             &kp LEFT_ALT   &kp LEFT_META  &trans        &trans    &kp N0  &trans        &kp RIGHT_META  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
